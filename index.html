@@ -1,35 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="viewport" content="width=device-width">
-<meta charset="utf-8">
-<meta name="Generator" content="Drupal 7 (http://drupal.org)">
-<link rel="shortcut icon"  type="image/vnd.microsoft.icon">
-<title>Akiba Pizza | Try Something Amazing</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Abu's Pizza||Best Choice.</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="#!">Home</a>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#!">About Us <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#!">Menu <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#!">Contact Us <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
+    <div class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <h1 class="heading">Abu's Pizza</h1>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+        </nav>
     </div>
-  </nav>
+    <div id="page">
+        <div class="container-fluid">
+            <div class="Abdi">
+                    <h2 class="abdi"><em>Abu's Pizza.</em></h2>
+                    <p class="abdii">The best pizza quality to satisfy you to the fullest.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 4 -->
+    <div class="container-fluid">
+        <div class="container"  id="mnu">
+            <br>
+            <br>
+            <button type="button" class="btn btn-outline-info btn-lg" id="checky">MAKE AN ORDER
+            </button>
+            <div class="row">
+                <div class="col-md-4 mx-auto py-2">
+                    <form id="myForm">
+                        <div class="form-group">
+                            <label for="sel1">Choose your favourite type:</label>
+                            <select class="form-control" id="type">
+                                <option>Margherita</option>
+                                <option>Deluxe</option>
+                                <option>Peperoni</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Choose your pizza's size:</label>
+                            <select class="form-control" id="size">
+                                <option value="1">Large-1000</option>
+                                <option value="2">Medium-850</option>
+                                <option value="3">Small-650</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Choose your favourite crust:</label>
+                            <select class="form-control" id="crusting">
+                                <option value="1">Cripsy-99</option>
+                                <option value="2">Stuffed-119</option>
+                                <option value="3">Glutten-free-149</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sel1">Choose your favourite topping:</label>
+                            <select class="form-control" id="top">
+                                <option value="1">Pepperoni-99</option>
+                                <option value="2">Mushrooms-99</option>
+                                <option value="3">Sausage-149</option>
+                                <option value="4">Bacon-199</option>
+                            </select>
+                        </div>
+                        <div class="form-group" required>
+                            <label for="sel1">Quantity:</label>
+                            <input type="number" id="quantity" class="form-control" min="1" required>
+                        </div>
+                        <div class="form-group" required="">
+                            <label for="sel1">Delivery options:</label>
+                            <select class="form-control" id="delivery">
+                                <option value="1">Delivery at our main office off mombasa road!</option>
+                                <option value="2">Delivery at your door step!</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-info btn-block" onclick="submit()">make an order</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+<!-- section 5 -->
+    <div class="container-fluid pl-0 pr-0">
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <div class="container">
+        <form onsubmit=" return validateForm()" class="form">
+                    <div class="row">
+                    <div class="col">
+                        <input type="text" class="mt-3 form-control" placeholder="Name" id="name" required>
+                    </div>
+                    <div class="col">
+                        <input type="email" class="mt-3 form-control col-form-label" placeholder="Email" id="email"
+                            required>
+                    </div>
+                    <div class="col-sm-12" id="text">
+                        <textarea type="text" class="mt-3 form-control" placeholder="Leave us a message..." id="message"
+                            rows="6" required></textarea>
+                    </div><br>
+                    <div>
+                        <button type="submit" class="btn btn-outline-info mt-3">Submit</button>
+                    </div>
+                </div>
+            </form>
+            <div class="center">
+            <p>Abu's Pizza &copy;2020</p>
+          </div>
+    </div>
 </body>
 </html>
