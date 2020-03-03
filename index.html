@@ -16,7 +16,7 @@
           <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#menu">Order</a>
+          <a class="nav-link" href="#gett">Order</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
@@ -33,61 +33,79 @@
     </div>
   </div>
 
-  <!-- section 4 -->
-  <div class="container-fluid">
-    <div class="container"  id="mnu">
-      <br>
-      <br>
-      <button type="button" class="btn btn-outline-info btn-lg" id="checky">MAKE AN ORDER
-      </button>
-      <div class="row">
-        <div class="col-md-4 mx-auto py-2">
-          <form id="myForm">
-            <div class="form-group">
-              <label for="sel1">Choose your favourite type:</label>
-              <select class="form-control" id="type">
-                <option>Margherita</option>
-                <option>Deluxe</option>
-                <option>Peperoni</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="sel1">Choose your pizza's size:</label>
-              <select class="form-control" id="size">
-                <option value="1">Large-1000</option>
-                <option value="2">Medium-850</option>
-                <option value="3">Small-650</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="sel1">Choose your favourite crust:</label>
-              <select class="form-control" id="crusting">
-                <option value="1">Cripsy-99</option>
-                <option value="2">Stuffed-119</option>
-                <option value="3">Glutten-free-149</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="sel1">Choose your favourite topping:</label>
-              <select class="form-control" id="top">
-                <option value="1">Pepperoni-99</option>
-                <option value="2">Mushrooms-99</option>
-                <option value="3">Sausage-149</option>
-                <option value="4">Bacon-199</option>
-              </select>
-            </div>
-            <div class="form-group" required>
-              <label for="sel1">Quantity:</label>
-              <input type="number" id="quantity" class="form-control" min="1" required>
-            </div>
-            <div class="form-group" required="">
-              <label for="sel1">Delivery options:</label>
-              <select class="form-control" id="delivery">
-                <option value="1">Delivery at our main office off mombasa road!</option>
-                <option value="2">Delivery at your door step!</option>
-              </select>
-            </div>
-            <div class="form-group">
+  <div class="row" id="rowA">
+    <div class="col-md-4">
+      <h4><q>enjoy with friends and family</q></h4>
+      <img src="css/family.png"><br/>
+      <img src="css/hand.jpg" width=350px;>
+    </div>
+    <div class="col-md-4">
+      <h4><q>enjoy pizza during movietime</q></h4>
+      <img src="css/movie.png"><br/>
+      <img src="css/hand1.jpg" width=350px;>
+    </div>
+    <div class="col-md-4">
+      <h4><q>enjoy fast delivery</q></h4>
+      <img src="css/abu.png"><br/>
+      <img src="css/hand2.jpg" width=350px;>
+    </div>
+  </div><br/><br/>
+</div>
+<div class="container-fluid">
+  <div class="container"  id="mnu">
+    <br>
+    <br>
+    <button type="button" class="btn btn-outline-info btn-lg" id="checky">MAKE AN ORDER
+    </button>
+    <div class="row">
+      <div class="col-md-4 mx-auto py-2">
+        <form id="myForm">
+          <div class="form-group">
+            <label for="sel1">Choose your favourite type:</label>
+            <select class="form-control" id="type">
+              <option>Margherita</option>
+              <option>Deluxe</option>
+              <option>Peperoni</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel1">Choose your pizza's size:</label>
+            <select class="form-control" id="size">
+              <option value="1">Large-1000</option>
+              <option value="2">Medium-850</option>
+              <option value="3">Small-650</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel1">Choose your favourite crust:</label>
+            <select class="form-control" id="crusting">
+              <option value="1">Cripsy-99</option>
+              <option value="2">Stuffed-119</option>
+              <option value="3">Glutten-free-149</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel1">Choose your favourite topping:</label>
+            <select class="form-control" id="top">
+              <option value="1">Pepperoni-99</option>
+              <option value="2">Mushrooms-99</option>
+              <option value="3">Sausage-149</option>
+              <option value="4">Bacon-199</option>
+            </select>
+          </div>
+          <div class="form-group" required>
+            <label for="sel1">Quantity:</label>
+            <input type="number" id="quantity" class="form-control" min="1" required>
+          </div>
+          <div class="form-group" required="">
+            <label for="sel1">Delivery options:</label>
+            <select class="form-control" id="delivery">
+              <option value="1">Delivery at our main office off mombasa road!</option>
+              <option value="2">Delivery at your door step!</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <div id="gett">
               <button type="submit" class="btn btn-info btn-block" onclick="submit()">make an order</button>
             </div>
           </form>
@@ -96,7 +114,6 @@
     </div>
   </div>
   <br>
-  <!-- section 5 -->
   <div class="container-fluid pl-0 pr-0">
     <div id="contact">
       <h2>Contact Us</h2>
