@@ -5,7 +5,7 @@ Simple project to showcase website building.
 ## Author
 Abdullahi Mohammed Amin
 
-## contact information
+## Contact Information
 To contact the author send an email to mohammedabdillahi750@gmail.com
 
 ## BDD
