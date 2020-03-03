@@ -18,7 +18,7 @@ HOW IT WORKS: The javascript functions in the backeend generate interractive eff
 ## Technologies Used
 HTML: for basic webpage structure
 
-css: for styling the webpage
+CSS: for styling the webpage
 
 jQuery: for essential functions that enable effects
 
