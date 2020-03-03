@@ -2,7 +2,7 @@
 ## Description
 Simple project to showcase website building.
 
-## author
+## Author
 Abdullahi Mohammed Amin
 
 ## contact information
