@@ -1,6 +1,6 @@
 # PIZZA WEBSITE.
 ## Description
-simple project to showcase website building.
+Simple project to showcase website building.
 
 ## author
 Abdullahi Mohammed Amin
