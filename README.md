@@ -16,7 +16,7 @@ OUTPUT: The user gets to see the effects built into the page.
 HOW IT WORKS: The javascript functions in the backeend generate interractive effects.
 
 ## Technologies Used
-html: for basic webpage structure
+HTML: for basic webpage structure
 
 css: for styling the webpage
 
