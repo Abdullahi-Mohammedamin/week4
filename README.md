@@ -6,7 +6,7 @@ simple project to showcase website building.
 Abdullahi Mohammed Amin
 
 ## contact information
-to contact the author send an email to mohammedabdillahi750@gmail.com
+To contact the author send an email to mohammedabdillahi750@gmail.com
 
 ## BDD
 INPUT: The user is able to choose his favourite pizza from the comfort of his home.
