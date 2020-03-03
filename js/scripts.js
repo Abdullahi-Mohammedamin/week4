@@ -73,7 +73,7 @@ $(document).ready(function(){
         var location= prompt(" Where would your like your Pizza to be Delivered? ");
         var locations =["Eastleigh", " Kilimani", " South C", " Fedha estate ", "and Donhom"]
         if((location !== locations[0]) && (location !== locations[1]) && (location !== locations[2]) && (location !== locations[3]) && (location !== locations[4]) && (location !== locations[5])){
-          alert("Oops sorry!We are currently able to make Deliveries in following areas;")
+          alert("Oops!we are currently not able to deliver it to your area,we only operate in the following areas;")
           alert(locations)
 
         }
