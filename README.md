@@ -20,5 +20,5 @@ HTML: for basic webpage structure
 
 CSS: for styling the webpage
 
-jQuery: for essential functions that enable effects
+JQUERY: for essential functions that enable effects
 
